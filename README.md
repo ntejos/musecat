@@ -1,0 +1,2 @@
+# musecat
+Consolidated MUSE catalog
