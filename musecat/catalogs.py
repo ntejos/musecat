@@ -32,17 +32,17 @@ class CatLSDCat(Cat):
         return CatLSDCat(tab)
 
 
-class CatPyMUSECat(Cat):
-    """Class to handle main outputs of XXX"""
+class CatPMMCat(Cat):
+    """Class to handle main outputs of PMM"""
 
     def __init__(self, tab):
-        super(CatPyMUSECat,self).__init__(tab)
+        super(CatPMMCat,self).__init__(tab)
 
     @classmethod
     def from_file(cls, filename):
         """Init from a filename"""
         tab = Table.read(filename)
-        return CatPyMUSECat(tab)
+        return CatPMMCat(tab)
 
 
 
