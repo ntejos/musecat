@@ -36,10 +36,13 @@ class CatPyMUSECat(Cat):
     """Class to handle main outputs of XXX"""
 
     def __init__(self, tab):
-        super().__init__(self, tab)
+        super(CatPyMUSECat,self).__init__(tab)
 
     @classmethod
     def from_file(cls, filename):
         """Init from a filename"""
         tab = Table.read(filename)
         return CatPyMUSECat(tab)
+
+
+

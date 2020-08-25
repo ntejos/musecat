@@ -1,0 +1,5 @@
+musecat.egg-infos
+dist
+*.fits
+build
+playground
